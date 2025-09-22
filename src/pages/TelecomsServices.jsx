@@ -29,4 +29,3 @@ const TelecomsServices = () => (
 )
 
 export default TelecomsServices
-EOF < /dev/null

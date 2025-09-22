@@ -29,4 +29,3 @@ const WaterServices = () => (
 )
 
 export default WaterServices
-EOF < /dev/null

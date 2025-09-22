@@ -47,4 +47,3 @@ const ServicesPage = () => {
 }
 
 export default ServicesPage
-EOF < /dev/null
