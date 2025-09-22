@@ -23,7 +23,8 @@ import {
   Recycle,
   Factory,
   TreePine,
-  Waves
+  Waves,
+  BarChart3
 } from 'lucide-react'
 import QuoteForm from '../components/QuoteForm'
 
@@ -253,9 +254,9 @@ const RenewableEnergy = () => {
       <nav className="pt-24 pb-4 bg-gray-50">
         <div className="section-padding">
           <div className="flex text-sm text-gray-600">
-            <Link to="/" className="hover:text-primary-600">Home</a>
+            <Link to="/" className="hover:text-primary-600">Home</Link>
             <span className="mx-2">/</span>
-            <Link to="/services" className="hover:text-primary-600">Services</a>
+            <Link to="/services" className="hover:text-primary-600">Services</Link>
             <span className="mx-2">/</span>
             <span className="text-gray-900">Renewable Energy</span>
           </div>
@@ -284,7 +285,7 @@ const RenewableEnergy = () => {
               <Link to="/energy-auditing" className="btn-secondary inline-flex items-center text-lg px-8 py-4">
                 <Leaf className="mr-2 h-5 w-5" />
                 Carbon Assessment
-              </a>
+              </Link>
             </div>
             
             {/* Trust Signals */}
@@ -558,7 +559,7 @@ const RenewableEnergy = () => {
                 
                 <Link to="/energy-market-insights" className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold">
                   Read Full Renewable Energy Report <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+                </Link>
               </div>
             </div>
             
@@ -630,7 +631,7 @@ const RenewableEnergy = () => {
             <p className="text-gray-600 mb-4">Need specific renewable energy advice?</p>
             <Link to="/contact" className="btn-secondary inline-flex items-center">
               Contact Our Sustainability Experts <ArrowRight className="ml-2 h-5 w-5" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -710,7 +711,7 @@ const RenewableEnergy = () => {
                   className="inline-flex items-center text-green-600 hover:text-green-700 font-semibold"
                 >
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+                </Link>
               </motion.div>
             ))}
           </div>
