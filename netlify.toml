@@ -13,4 +13,3 @@
 [dev]
   command = "npm run dev"
   port = 8866
-EOF < /dev/null
