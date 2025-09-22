@@ -222,7 +222,7 @@ const ContactPage = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-600">< 2h</div>
+                <div className="text-3xl font-bold text-green-600">&lt;2h</div>
                 <div className="text-sm text-gray-600">Response Time</div>
               </div>
               <div className="text-center">
