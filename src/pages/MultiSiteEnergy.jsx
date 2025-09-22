@@ -281,9 +281,9 @@ const MultiSiteEnergy = () => {
       <nav className="pt-24 pb-4 bg-gray-50">
         <div className="section-padding">
           <div className="flex text-sm text-gray-600">
-            <Link to="/" className="hover:text-primary-600">Home</a>
+            <Link to="/" className="hover:text-primary-600">Home</Link>
             <span className="mx-2">/</span>
-            <Link to="/services" className="hover:text-primary-600">Services</a>
+            <Link to="/services" className="hover:text-primary-600">Services</Link>
             <span className="mx-2">/</span>
             <span className="text-gray-900">Multi-Site Energy</span>
           </div>
@@ -312,7 +312,7 @@ const MultiSiteEnergy = () => {
               <Link to="/energy-auditing" className="btn-secondary inline-flex items-center text-lg px-8 py-4">
                 <BarChart3 className="mr-2 h-5 w-5" />
                 Portfolio Analysis
-              </a>
+              </Link>
             </div>
             
             {/* Trust Signals */}
@@ -600,7 +600,7 @@ const MultiSiteEnergy = () => {
                 
                 <Link to="/energy-market-insights" className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold">
                   Read Full Multi-Site Market Report <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+                </Link>
               </div>
             </div>
             
@@ -672,7 +672,7 @@ const MultiSiteEnergy = () => {
             <p className="text-gray-600 mb-4">Ready to optimize your multi-site energy portfolio?</p>
             <Link to="/contact" className="btn-secondary inline-flex items-center">
               Contact Our Portfolio Specialists <ArrowRight className="ml-2 h-5 w-5" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -752,7 +752,7 @@ const MultiSiteEnergy = () => {
                   className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
                 >
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+                </Link>
               </motion.div>
             ))}
           </div>
