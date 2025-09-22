@@ -232,9 +232,9 @@ const BusinessElectricity = () => {
       <nav className="pt-24 pb-4 bg-gray-50">
         <div className="section-padding">
           <div className="flex text-sm text-gray-600">
-            <Link to="/" className="hover:text-primary-600">Home</a>
+            <Link to="/" className="hover:text-primary-600">Home</Link>
             <span className="mx-2">/</span>
-            <Link to="/services" className="hover:text-primary-600">Services</a>
+            <Link to="/services" className="hover:text-primary-600">Services</Link>
             <span className="mx-2">/</span>
             <span className="text-gray-900">Business Electricity</span>
           </div>
@@ -263,7 +263,7 @@ const BusinessElectricity = () => {
               <Link to="/switching-guide" className="btn-secondary inline-flex items-center text-lg px-8 py-4">
                 <Lightbulb className="mr-2 h-5 w-5" />
                 How It Works
-              </a>
+              </Link>
             </div>
             
             {/* Trust Signals */}
@@ -528,7 +528,7 @@ const BusinessElectricity = () => {
                 
                 <Link to="/energy-market-insights" className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold">
                   Read Full Market Analysis <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+                </Link>
               </div>
             </div>
             
@@ -600,7 +600,7 @@ const BusinessElectricity = () => {
             <p className="text-gray-600 mb-4">Still have questions?</p>
             <Link to="/faq" className="btn-secondary inline-flex items-center">
               View All FAQs <ArrowRight className="ml-2 h-5 w-5" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -680,7 +680,7 @@ const BusinessElectricity = () => {
                   className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
                 >
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+                </Link>
               </motion.div>
             ))}
           </div>
