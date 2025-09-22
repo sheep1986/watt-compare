@@ -297,7 +297,7 @@ const FAQ = () => {
                   <Mail className="h-5 w-5" />
                   Email Us
                 </button>
-              </a>
+              </Link>
             </div>
 
             <div className="mt-12 pt-12 border-t border-white/20">
